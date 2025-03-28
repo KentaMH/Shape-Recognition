@@ -43,39 +43,6 @@ public class App {
         List<Sample> testSetGFD = splitDataSetGFD[1];
         List<Sample> testSetF0 = splitDataSetF0[1];
 
-
-        /*--------------------------------------- tests ---------------------------------------*/
-
-//        System.out.println("================================== KNN CLASSIFICATION ============================================\n");
-//
-//        System.out.println("Résultats de la Méthode E34");
-//
-//        Map<String, Double> bestHyperparametersE34 = getHyperparameters(trainingSetE34);
-//
-//        // Utilisation des meilleurs hyperparamètres pour évaluer le modèle sur le testSet
-//        KNNClassifier.evaluateModelOnTestSet(trainingSetE34, testSetE34, bestHyperparametersE34);
-//
-//        System.out.println("Résultats de la Méthode F0");
-//
-//        Map<String, Double> bestHyperparametersF0 = getHyperparameters(trainingSetF0);
-//
-//        // Utilisation des meilleurs hyperparamètres pour évaluer le modèle sur le testSet
-//        KNNClassifier.evaluateModelOnTestSet(trainingSetF0, testSetF0, bestHyperparametersF0);
-//
-//        System.out.println("Résultats de la Méthode GFD");
-//
-//        Map<String, Double> bestHyperparametersGFD = getHyperparameters(trainingSetGFD);
-//
-//        // Utilisation des meilleurs hyperparamètres pour évaluer le modèle sur le testSet
-//        KNNClassifier.evaluateModelOnTestSet(trainingSetGFD, testSetGFD, bestHyperparametersGFD);
-//
-//        System.out.println("Résultats de la Méthode SA");
-//
-//        Map<String, Double> bestHyperparametersSA = getHyperparameters(trainingSetSA);
-//
-//        // Utilisation des meilleurs hyperparamètres pour évaluer le modèle sur le testSet
-//        KNNClassifier.evaluateModelOnTestSet(trainingSetSA, testSetSA, bestHyperparametersSA);
-
         System.out.println("================================== K-Means Classifier ==============================================");
 
         // Initializing the parameters to be fed to the KMeansClassifier constructor. Can freely be changed.
